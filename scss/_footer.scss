@@ -1,0 +1,61 @@
+@import "./maps";
+@import "./variables";
+ /* FOOTER */
+ footer {
+     background-color:nth($list: $color, $n:4 );
+
+     div.container-fluid {
+         div.row {
+             div.col-xs-12 {
+                 div {
+                     a.text-center {
+                         font-family: 'League Gothic', sans-serif;
+                         font-size: 30px;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: center;
+                         align-items: center;
+                     }
+
+                     p.text-center {
+                        @include text-center(flex,column,center)
+                     }
+                 }
+
+                 div {
+                     ul.redes__sociales {
+                         display: flex;
+                         justify-content: space-around;
+                         align-items: center;
+                         min-width: 300px;
+
+                         li {
+                             a {
+                                 i {
+                                    color: nth($list: $color, $n:1 );
+                                     font-size: 25px;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
+.hr_footer-1 {
+    color: transparent;
+}
+ .footer_a {
+    color: nth($list: $color, $n:1 );
+ }
+
+ .text-center {
+    @include text-center(flex,column,center)
+    
+ }
+
+ .footer_a-todos {
+     font-family: 'League Gothic', sans-serif;
+     font-size: map-get($map:$font-size1 , $key:font-size );
+ }

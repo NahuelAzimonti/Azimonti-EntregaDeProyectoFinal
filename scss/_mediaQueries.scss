@@ -1,0 +1,145 @@
+@import "./mixins";
+@import"./variables";
+/* MEDIA-QUERIES */
+@media screen and (min-width:768px) {  
+    /*MAIN-INDEX*/
+    .container_index {  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 18px 18px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Guitarra Con_1"
+          "Con_2 electronica";
+      }
+      .Guitarra { grid-area: Guitarra; }
+      
+      .Con_1 {  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 18px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "teclados"
+          "Ukulele";
+        grid-area: Con_1;
+      }
+      
+      .teclados { grid-area: teclados; }
+      
+      .Ukulele { grid-area: Ukulele; }
+      
+      .Con_2 {  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 18px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "bateria"
+          "viento";
+        grid-area: Con_2;
+      }
+      
+      .bateria { grid-area: bateria; }
+      
+      .viento { grid-area: viento; }
+      
+      .electronica { grid-area: electronica; }
+      
+      .img_grid-container {
+        margin-bottom: 0px;
+      }
+      .img_grid-container {
+        margin-bottom: 0%;
+      }
+      .img-grid-container1 {
+        margin-bottom: 0% ;
+    }
+}
+@media screen and (min-width:992px) {
+     /* FOOTER */
+    .hr_footer {
+        color: transparent;
+    }
+    .hr_footer-1 {
+        color: white ;
+    }
+}
+@media screen and (min-width:1270px) {
+    /* HEADER */
+    .nav-item:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    } 
+    /* MAIN-INDEX */
+    #index-main-p {
+        font-size: nth($list:$font-side , $n:5 );
+    }
+    .container_index {
+        margin: 70px 300px 0px 300px;
+        padding-bottom: 70px;
+    }
+    .img-fluid {
+        height: 800px;
+    }
+    .img_index-main {
+        padding: 30px;
+    }
+    .index-main-p {
+        padding: 30px;
+    }
+    .grid-item div{
+        background-color:transparent;
+        transition: all 0.8s ease-in;
+    }
+    .grid-item div:hover {
+        background-color:rgba(0,0, 0, 0.5);
+    }
+    .grid-item1 div{
+        background-color:transparent;
+        transition: all 0.8s ease-in;
+    }
+    .grid-item1 div:hover {
+        background-color:rgba(0,0, 0, 0.5);
+    }
+    /* FOOTER */
+    footer {
+        padding: 10px 100px 0 100px;
+    }
+    .footer_h1 {
+        transition: all 0.5s ease-in;
+    }
+    .footer_h1:hover {
+        transform: scale(1.1);
+    }
+    .fa-brands {
+        transition: all 0.5s ease-in;
+    }
+    .fa-brands:hover {
+        transform: scale(1.5);
+    }
+    /* MAIN-CONTAC */
+    .contac_form-main {
+        padding: 0 250px 0 250px;
+    }
+    .form-check-label {
+        color: white;
+    }
+    .contac_p {
+        @include flex(flex,column,flex-start,center)
+    }
+    .mapa_contac {
+        padding: 10px 250px 20px 300px
+    }
+    /* MAIN-LOGIN*/
+    .div_contenedor {
+        padding: 0 400px 0 400px;
+    }
+}
+@media screen and (min-width:1600px) {
+    /* FOOTER */
+    footer {
+        padding: 10px 200px 0 200px;
+    }
+}

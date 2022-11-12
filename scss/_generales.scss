@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import "./mixins";
+@import"./variables";
+/* MAIN INDEX */
+.index-main-title {
+    padding-top: 16px;
+    font-size: nth($list:$font-side , $n:5 );
+    font-family: 'League Gothic', sans-serif;
+}
+.index-main-secondTitle {
+    font-family: 'League Gothic', sans-serif;
+    font-size: nth($list:$font-side , $n:5 );
+}
+.index-container-text {
+    display: flex;
+    align-items: center;
+    p{
+        font-family: 'League Gothic', sans-serif;
+        font-size: nth($list:$font-side , $n:3 );
+        padding-top: 15px; 
+    }
+}
+.index-container-img {
+    display: flex;
+    align-items: center;
+}
+.grid-item {
+    text-align: center;
+}
+
+.img-grid-container1 {
+    margin-bottom: 30px;
+}
+
+.img_grid-container2 {
+    margin-bottom: 0%;
+}
+
+.img_grid-container {
+    margin-bottom: 30px;
+}
+
+.img_grid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item1 {
+    position: relative;
+    div {
+        position: absolute;
+        bottom: 50%;
+        padding: 5px;
+        width: 96.3%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        a {
+            text-align: center;
+            color: nth($list: $color, $n: 1);
+            bottom: 50%;
+            font-size: 25px;
+        }
+    }
+}
+.grid-item {
+    position: relative;
+    text-align: center;
+
+    div {
+        position: absolute;
+        bottom: 50%;
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        a {
+            text-align: center;
+            color: nth($list: $color, $n: 1);
+            bottom: 50%;
+            font-size: 25px;
+        }
+    }
+
+}
+
+/* MAIN-CONTAC */
+
+.main-contac-title {
+    font-family: 'League Gothic', sans-serif;
+    font-size: nth($list:$font-side , $n:5 );
+}

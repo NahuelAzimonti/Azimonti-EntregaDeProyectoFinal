@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+header div.logo_img {
+  display: flex;
+  align-items: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+p {
+  color: white; }
+
+h1 {
+  color: white; }
+
+h2 {
+  color: white; }
+
+hr {
+  color: white; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+li {
+  list-style: none; }
+
+ul {
+  padding-left: 0%; }
+
+/* HEADER */
+header div.logo_img img.header_nota-musical {
+  width: 25px;
+  height: 25px; }
+
+header a.navbar-brand {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 30px; }
+
+/* MAIN INDEX */
+.index-main-title {
+  padding-top: 16px;
+  font-size: 45px;
+  font-family: 'League Gothic', sans-serif; }
+
+.index-main-secondTitle {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 45px; }
+
+.index-container-text {
+  display: flex;
+  align-items: center; }
+  .index-container-text p {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 30px;
+    padding-top: 15px; }
+
+.index-container-img {
+  display: flex;
+  align-items: center; }
+
+.grid-item {
+  text-align: center; }
+
+.img-grid-container1 {
+  margin-bottom: 30px; }
+
+.img_grid-container2 {
+  margin-bottom: 0%; }
+
+.img_grid-container {
+  margin-bottom: 30px; }
+
+.img_grid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.grid-item1 {
+  position: relative; }
+  .grid-item1 div {
+    position: absolute;
+    bottom: 50%;
+    padding: 5px;
+    width: 96.3%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .grid-item1 div a {
+      text-align: center;
+      color: white;
+      bottom: 50%;
+      font-size: 25px; }
+
+.grid-item {
+  position: relative;
+  text-align: center; }
+  .grid-item div {
+    position: absolute;
+    bottom: 50%;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .grid-item div a {
+      text-align: center;
+      color: white;
+      bottom: 50%;
+      font-size: 25px; }
+
+/* MAIN-CONTAC */
+.main-contac-title {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 45px; }
+
+/* MAIN-INSTRUMENT */
+.main-instrument-title {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 45px; }
+
+.flex_container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.card {
+  margin-bottom: 10px; }
+
+.card-img-top {
+  height: 190px; }
+
+.card_title-piano {
+  font-size: 15.69px; }
+
+.botonesDeFiltrado {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+  flex-wrap: wrap; }
+
+.botonesAInstument {
+  padding: 10px;
+  border-radius: 5px; }
+
+/* MAIN-LOGIN */
+.main-login-title {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 45px; }
+
+.login_main {
+  background-image: url(../img/Tienda_de-musica4.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 79.6vh;
+  display: grid;
+  align-items: center; }
+
+.div_contenedor {
+  display: flex;
+  align-items: center; }
+
+.modal-content {
+  background-color: #00000063;
+  opacity: .85;
+  padding: 0 20px;
+  margin-bottom: 100px;
+  box-shadow: grey; }
+
+/* MAIN-PAY */
+.main-pay-title {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 45px; }
+
+.pay_main_p {
+  margin-top: 40px; }
+
+.pay_li {
+  list-style: decimal; }
+
+.pay-li {
+  list-style: circle;
+  margin: 0 50px 0px 50px; }
+
+/* FOOTER */
+footer {
+  background-color: #212F3D; }
+  footer div.container-fluid div.row div.col-xs-12 div a.text-center {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  footer div.container-fluid div.row div.col-xs-12 div p.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  footer div.container-fluid div.row div.col-xs-12 div ul.redes__sociales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 300px; }
+    footer div.container-fluid div.row div.col-xs-12 div ul.redes__sociales li a i {
+      color: white;
+      font-size: 25px; }
+
+.hr_footer-1 {
+  color: transparent; }
+
+.footer_a {
+  color: white; }
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.footer_a-todos {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 25px; }
+
+/* MEDIA-QUERIES */
+@media screen and (min-width: 768px) {
+  /*MAIN-INDEX*/
+  .container_index {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 18px 18px;
+    grid-auto-flow: row;
+    grid-template-areas: "Guitarra Con_1" "Con_2 electronica"; }
+  .Guitarra {
+    grid-area: Guitarra; }
+  .Con_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 18px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "teclados" "Ukulele";
+    grid-area: Con_1; }
+  .teclados {
+    grid-area: teclados; }
+  .Ukulele {
+    grid-area: Ukulele; }
+  .Con_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 18px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "bateria" "viento";
+    grid-area: Con_2; }
+  .bateria {
+    grid-area: bateria; }
+  .viento {
+    grid-area: viento; }
+  .electronica {
+    grid-area: electronica; }
+  .img_grid-container {
+    margin-bottom: 0px; }
+  .img_grid-container {
+    margin-bottom: 0%; }
+  .img-grid-container1 {
+    margin-bottom: 0%; } }
+
+@media screen and (min-width: 992px) {
+  /* FOOTER */
+  .hr_footer {
+    color: transparent; }
+  .hr_footer-1 {
+    color: white; } }
+
+@media screen and (min-width: 1270px) {
+  /* HEADER */
+  .nav-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px; }
+  /* MAIN-INDEX */
+  #index-main-p {
+    font-size: 45px; }
+  .container_index {
+    margin: 70px 300px 0px 300px;
+    padding-bottom: 70px; }
+  .img-fluid {
+    height: 800px; }
+  .img_index-main {
+    padding: 30px; }
+  .index-main-p {
+    padding: 30px; }
+  .grid-item div {
+    background-color: transparent;
+    transition: all 0.8s ease-in; }
+  .grid-item div:hover {
+    background-color: rgba(0, 0, 0, 0.5); }
+  .grid-item1 div {
+    background-color: transparent;
+    transition: all 0.8s ease-in; }
+  .grid-item1 div:hover {
+    background-color: rgba(0, 0, 0, 0.5); }
+  /* FOOTER */
+  footer {
+    padding: 10px 100px 0 100px; }
+  .footer_h1 {
+    transition: all 0.5s ease-in; }
+  .footer_h1:hover {
+    transform: scale(1.1); }
+  .fa-brands {
+    transition: all 0.5s ease-in; }
+  .fa-brands:hover {
+    transform: scale(1.5); }
+  /* MAIN-CONTAC */
+  .contac_form-main {
+    padding: 0 250px 0 250px; }
+  .form-check-label {
+    color: white; }
+  .contac_p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }
+  .mapa_contac {
+    padding: 10px 250px 20px 300px; }
+  /* MAIN-LOGIN*/
+  .div_contenedor {
+    padding: 0 400px 0 400px; } }
+
+@media screen and (min-width: 1600px) {
+  /* FOOTER */
+  footer {
+    padding: 10px 200px 0 200px; } }
+
+.loginMain {
+  background-image: url(../img/tiendaDos.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 79.6vh;
+  display: grid;
+  align-items: center; }

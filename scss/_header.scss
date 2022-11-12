@@ -1,0 +1,52 @@
+@import "./variables";
+@import "./extends";
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: nth($list: $color, $n:1 );
+}
+
+h1 {
+    color: nth($list: $color, $n:1 );
+}
+
+h2 {
+    color: nth($list: $color, $n:1 );
+}
+
+hr {
+    color: nth($list: $color, $n:1 );
+}
+
+a {
+    text-decoration: none;
+    color: nth($list: $color, $n:1 );
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0%;
+}
+
+/* HEADER */
+header {
+    div.logo_img {
+        @extend %flex;
+        img.header_nota-musical {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    a.navbar-brand {
+        font-family: 'League Gothic', sans-serif;
+        font-size: 30px;
+    }
+}

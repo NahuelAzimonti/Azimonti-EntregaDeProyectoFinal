@@ -1,0 +1,17 @@
+@mixin flex ($flex, $column, $flex-start, $center) {
+    display: $flex;
+    flex-direction: $column;
+    align-items: $flex-start;
+    justify-content: $center;
+}
+@mixin flex_containe ($flex, $space-evenly,$wrap) {
+    display:$flex;
+    justify-content:$space-evenly;
+    flex-wrap:$wrap;
+}
+@mixin text-center ($flex,$column,$center,){
+    display: $flex;
+    flex-direction: $column;
+    justify-content:$center ;
+    
+}

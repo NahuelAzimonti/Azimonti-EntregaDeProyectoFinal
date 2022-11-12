@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+/* MAIN-PAY */
+.main-pay-title {
+    font-family: 'League Gothic', sans-serif;
+    font-size: nth($list:$font-side , $n:5 );
+}
+.pay_main_p {
+    margin-top: 40px;
+}
+.pay_li {
+    list-style: decimal;
+}
+.pay-li {
+    list-style: circle;
+    margin: 0 50px 0px 50px;
+}
